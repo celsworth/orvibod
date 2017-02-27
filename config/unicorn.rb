@@ -1,2 +1,3 @@
 listen 10000
-logger Logger.new(STDOUT)
+
+pid "#{ENV['RAILS_ROOT']}/tmp/orvibod.pid"

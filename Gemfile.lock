@@ -1,15 +1,21 @@
 GEM
   remote: https://rubygems.org/
   specs:
-    rack (1.6.4)
-    roda (2.10.0)
+    kgio (2.11.0)
+    rack (2.0.1)
+    raindrops (0.17.0)
+    roda (2.23.0)
       rack
+    unicorn (5.2.0)
+      kgio (~> 2.6)
+      raindrops (~> 0.7)
 
 PLATFORMS
   ruby
 
 DEPENDENCIES
   roda
+  unicorn
 
 BUNDLED WITH
-   1.11.2
+   1.12.5
