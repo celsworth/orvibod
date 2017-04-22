@@ -2,3 +2,6 @@
 *.swp
 tmp/*.log
 tmp/*.pid
+vendor
+.bundle
+bin

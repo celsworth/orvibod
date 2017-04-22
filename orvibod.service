@@ -1,0 +1,12 @@
+[Unit]
+Description=Orvibo Daemon Web Service
+
+[Service]
+Restart=always
+RestartSec=5
+WorkingDirectory=/home/chris/apps/orvibod
+Environment=RACK_ENV=production
+ExecStart=/home/chris/apps/orvibod/bin/unicorn -c config/unicorn.rb
+
+[Install]
+WantedBy=default.target

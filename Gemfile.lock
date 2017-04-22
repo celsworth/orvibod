@@ -3,10 +3,10 @@ GEM
   specs:
     kgio (2.11.0)
     rack (2.0.1)
-    raindrops (0.17.0)
-    roda (2.23.0)
+    raindrops (0.18.0)
+    roda (2.25.0)
       rack
-    unicorn (5.2.0)
+    unicorn (5.3.0)
       kgio (~> 2.6)
       raindrops (~> 0.7)
 
@@ -18,4 +18,4 @@ DEPENDENCIES
   unicorn
 
 BUNDLED WITH
-   1.12.5
+   1.14.6
